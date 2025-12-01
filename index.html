@@ -5,15 +5,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>前衛技術同盟 (Bund der Avantgarde-Technologen)</title>
         <style>
-            /* グローバルリセットとダークテーマ */
+            @font-face {
+                font-family: "GevaFont";
+                src: url("851Gkktt_005.ttf") format("truetype");
+                font-weight: normal;
+                font-style: normal;
+            }
+
             :root {
                 --color-bg: #121212;
                 --color-text-primary: #e0e0e0;
                 --color-text-secondary: #bbbbbb;
-                --color-accent: #ff5252; /* 革命的な赤 */
+                --color-accent: #ff3030; /* 革命的な赤 */
                 --color-border: #333333;
-                --font-main: "Helvetica Neue", Arial, sans-serif;
-                --font-monospace: "Fira Code", "Roboto Mono", monospace;
+                --font-geva: "GevaFont";
+                --font-main: "Hiragino Maru Gothic Pro";
             }
 
             body {
@@ -40,18 +46,21 @@
             }
 
             h1 {
-                font-family: var(--font-monospace);
-                font-size: 2.5em;
+                font-family: var(--font-geva);
+                font-size: 4em;
+                padding: 0;
                 margin: 0;
                 color: var(--color-text-primary);
-                letter-spacing: 2px;
+                letter-spacing: 5px;
                 text-transform: uppercase;
             }
 
             .subtitle {
-                font-size: 1.1em;
+                font-family: var(--font-geva);
+                font-size: 1.5em;
                 color: var(--color-accent);
-                margin-top: 5px;
+                margin-top: -20px;
+                padding: 0;
                 font-weight: 300;
             }
 
@@ -110,11 +119,11 @@
             /* スローガンとフッター */
             .slogan {
                 background-color: var(--color-accent);
-                color: var(--color-bg);
+                color: var(--color-main);
                 padding: 25px;
                 text-align: center;
-                font-size: 1.5em;
-                font-family: var(--font-monospace);
+                font-size: 2.5em;
+                font-family: var(--font-geva);
                 margin-top: 60px;
                 margin-bottom: 60px;
                 letter-spacing: 1px;
@@ -220,16 +229,16 @@
 
                 <ul>
                     <li>
-                        <strong>疎外の克服：</strong
-                        >労務管理ソフト、デジタル教育、検閲やフィルタリングなど、人間を支配するゲシュテルを粉砕する。
+                        <strong>疎外克服：</strong
+                        >労務管理ソフト、デジタル教育、検閲やフィルタリングなど、自由の敵たるゲシュテルを粉砕する。
                     </li>
                     <li>
-                        <strong>代替システムの開発：</strong
+                        <strong>代替システム：</strong
                         >分散型SNSやプログラミング言語など、アナキスト社会の基盤になるソフトウェアを開発する。
                     </li>
                     <li>
                         <strong>技術の非職能化：</strong
-                        >技術独占とテクノクラシーを克服するため、技術を非専門化し、日常生活との一体化を推進する。
+                        >技術独占とテクノクラシーを克服するため、技術を遊戯化し日常生活との一体化を推進する。
                     </li>
                 </ul>
 
