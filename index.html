@@ -1,0 +1,245 @@
+<!doctype html>
+<html lang="ja">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>前衛技術同盟 (Bund der Avantgarde-Technologen)</title>
+        <style>
+            /* グローバルリセットとダークテーマ */
+            :root {
+                --color-bg: #121212;
+                --color-text-primary: #e0e0e0;
+                --color-text-secondary: #aaaaaa;
+                --color-accent: #ff5252; /* 革命的な赤 */
+                --color-border: #333333;
+                --font-main: "Helvetica Neue", Arial, sans-serif;
+                --font-monospace: "Fira Code", "Roboto Mono", monospace;
+            }
+
+            body {
+                background-color: var(--color-bg);
+                color: var(--color-text-primary);
+                font-family: var(--font-main);
+                margin: 0;
+                padding: 0;
+                line-height: 1.7;
+            }
+
+            /* コンテナとレイアウト */
+            .container {
+                max-width: 900px;
+                margin: 0 auto;
+                padding: 40px 20px;
+            }
+
+            /* ヘッダーとタイトル */
+            header {
+                border-bottom: 2px solid var(--color-accent);
+                padding-bottom: 20px;
+                margin-bottom: 50px;
+            }
+
+            h1 {
+                font-family: var(--font-monospace);
+                font-size: 2.5em;
+                margin: 0;
+                color: var(--color-text-primary);
+                letter-spacing: 2px;
+                text-transform: uppercase;
+            }
+
+            .subtitle {
+                font-size: 1.1em;
+                color: var(--color-accent);
+                margin-top: 5px;
+                font-weight: 300;
+            }
+
+            /* セクションタイトル */
+            h2 {
+                font-size: 1.8em;
+                color: var(--color-accent);
+                border-left: 4px solid var(--color-accent);
+                padding-left: 15px;
+                margin-top: 40px;
+                margin-bottom: 20px;
+                font-weight: 500;
+            }
+
+            /* マニフェスト本文 */
+            p {
+                margin-bottom: 20px;
+                font-size: 1.05em;
+            }
+
+            strong {
+                color: var(--color-text-primary);
+                font-weight: 700;
+            }
+
+            /* 思想/運動リスト */
+            .influences {
+                display: flex;
+                flex-wrap: wrap;
+                gap: 20px;
+                margin-top: 20px;
+            }
+
+            .influence-item {
+                background-color: var(--color-border);
+                padding: 15px;
+                flex: 1 1 calc(33% - 20px);
+                min-width: 250px;
+                border-left: 2px solid var(--color-accent);
+            }
+
+            .influence-item h3 {
+                margin-top: 0;
+                font-size: 1.2em;
+                color: var(--color-accent);
+                border-bottom: 1px dashed var(--color-border);
+                padding-bottom: 5px;
+            }
+
+            .influence-item p {
+                font-size: 0.95em;
+                line-height: 1.5;
+                color: var(--color-text-secondary);
+            }
+
+            /* スローガンとフッター */
+            .slogan {
+                background-color: var(--color-accent);
+                color: var(--color-bg);
+                padding: 25px;
+                text-align: center;
+                font-size: 1.5em;
+                font-family: var(--font-monospace);
+                margin-top: 60px;
+                margin-bottom: 60px;
+                letter-spacing: 1px;
+                font-weight: 700;
+            }
+
+            footer {
+                text-align: center;
+                padding-top: 20px;
+                border-top: 1px solid var(--color-border);
+                font-size: 0.85em;
+                color: var(--color-text-secondary);
+            }
+
+            /* 批判のセクションを強調 */
+            .critique-section {
+                padding: 20px;
+                border: 1px solid var(--color-border);
+                margin-bottom: 30px;
+            }
+
+            .critique-section h3 {
+                color: var(--color-accent);
+                margin-top: 0;
+                font-size: 1.3em;
+            }
+
+            .critique-section p {
+                margin-bottom: 10px;
+            }
+
+            .critique-section ul {
+                list-style-type: "— ";
+                padding-left: 20px;
+                margin-top: 10px;
+            }
+
+            .critique-section ul li {
+                margin-bottom: 5px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="container">
+            <header>
+                <h1>前衛技術同盟</h1>
+                <p class="subtitle">BUND DER AVANTGARDE-TECHNOLOGEN</p>
+            </header>
+
+            <section class="manifesto">
+                <p>
+                    <strong>技術は中立であり得ない。</strong
+                    >技術は単なる道具ではなく、我々の<strong>存在そのものの媒体</strong>であり、その在り方を強く規定する。出勤管理やタイムカードの規律権力を見よ。技術は常に、既存の権力関係を再生産する。
+                </p>
+                <p>
+                    我々は、人間を管理可能な資源として強制的に配置するゲシュテル（総駆り立て体制）から技術を解放し、人間の自由な生を存在論的に肯定する開蔵としての<strong>ポイエーシス</strong>へと転倒させることを目指す。
+                </p>
+
+                <h2>I. 影響を受けた思想と運動</h2>
+                <div class="influences">
+                    <div class="influence-item">
+                        <h3>ヘーゲル左派 / 疎外論</h3>
+                        <p>
+                            フォイエルバッハの疎外論の転用。<strong>人間が作ったはずの技術が人間を支配する</strong>、という疎外形態を告発する。
+                            キリスト教と類似した構造が技術楽観主義に見られる。
+                        </p>
+                    </div>
+
+                    <div class="influence-item">
+                        <h3>シチュアシオニスト</h3>
+                        <p>
+                            スペクタクル社会批判。企業労務管理やデジタル教育が織りなすスペクタクルを打破し、アナキスト的存在様式としての<strong>状況の構築</strong>を目指す。
+                        </p>
+                    </div>
+                    <div class="influence-item">
+                        <h3>ハイデガー / 技術への問い</h3>
+                        <p>
+                            ハイデガー自身は<strong>『技術への問い』</strong>を読む限り技術を論じる上で「ゲシュテルを打倒せよ」とは言ってないが、むしろ我々は意図的に「ゲシュテルを打倒せよ」と言って革命運動に転化させた左派ハイデガー主義者である。
+                        </p>
+                    </div>
+                </div>
+
+                <h2>II. 既存の技術運動への批判</h2>
+                <div class="critique-section">
+                    <h3>自由ソフトウェア / オープンソースへの批判</h3>
+                    <p>
+                        資本主義を打倒するのではなく、補完的な技術愛好文化に留まっている。しかし、ハッカー精神や自由と協働のコミュニティ文化はリスペクトする。
+                    </p>
+                </div>
+                <div class="critique-section">
+                    <h3>暗号アナキズムへの批判</h3>
+                    <p>
+                        右派的・市場原理主義的であり、技術を革命の武器としてしか見ていない。ただし、その匿名性は近代的な「主体」そのものを脱構築する可能性を持つ。
+                    </p>
+                </div>
+
+                <h2>III. 我々の目指すものと道筋</h2>
+                <p>
+                    我々は、技術を革命の手段にするのではなく、<strong
+                        >技術そのものを革命する。</strong
+                    >
+                </p>
+
+                <ul>
+                    <li>
+                        <strong>疎外の克服：</strong
+                        >企業の労務管理ソフト、デジタル教育、検閲やフィルタリングなど、人間を支配する疎外形態（スペクタクル、ゲシュテル）を無力化する。
+                    </li>
+                    <li>
+                        <strong>技術の非職能化：</strong
+                        >技術独占とテクノクラシーを克服するため、技術を非職能化し、日常生活との一体化を推進する。
+                    </li>
+                    <li>
+                        <strong>代替システムの開発：</strong
+                        >人間の自由な生を肯定する「存在の開示」として、分散型SNSなど、自由な社会システムとしての代替ソフトウェアを開発する。
+                    </li>
+                </ul>
+
+                <div class="slogan">エンジニアの廃止こそ技術の実現である</div>
+            </section>
+
+            <footer>
+                <p>2025年11月30日 秋井乃音斗 前衛技術同盟</p>
+                <p>技術を、道具から存在の開示へ。</p>
+            </footer>
+        </div>
+    </body>
+</html>
