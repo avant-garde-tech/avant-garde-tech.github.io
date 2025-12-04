@@ -1,6 +1,5 @@
 # 前衛技術同盟綱領
 
-2025/12/4
 (a) Anti-Copyrights 2025, 前衛技術同盟. All resources shared
 
 ## 序文
