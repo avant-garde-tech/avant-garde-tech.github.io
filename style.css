@@ -42,22 +42,13 @@ body {
     }
 
     h1 {
-        font-family: var(--font-gewalt);
         font-size: 5em;
-        padding: 0;
+        font-family: var(--font-gewalt);
+        line-height: 90%;
         margin: 0;
         color: var(--color-text-primary);
         letter-spacing: 5px;
         text-transform: uppercase;
-    }
-
-    .subtitle {
-        font-family: var(--font-gewalt);
-        font-size: 1.5em;
-        color: var(--color-accent);
-        margin-top: -20px;
-        padding: 0;
-        font-weight: 300;
     }
 
     h2 {
