@@ -85,6 +85,11 @@ body {
         color: var(--color-accent);
     }
 
+    img {
+        width: 100%;
+        height: auto;
+    }
+
     .influences {
         display: flex;
         flex-wrap: wrap;
